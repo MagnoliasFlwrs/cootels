@@ -1,0 +1,39 @@
+.act_food {
+    max-width: calc(1094px + 16px*2);
+    margin: 0 auto;
+    height: 800px;
+}
+.activity {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.activity_about {
+    margin: 113px 126px 0 0;
+    text-align: start;
+}
+.act_food__tittle {
+    margin-bottom: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #192252;
+}
+.act_food__descr {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #848FAC;
+}
+.food {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.food__about {
+    margin: 145px 0 0 126px;
+}

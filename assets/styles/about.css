@@ -1,0 +1,47 @@
+.about {
+    max-width: calc(1200px + 16px*2);
+    margin: 0 auto;
+    height: 845px;
+    display: flex;
+    justify-content: space-between;
+}
+.about__description {
+    margin: 215px 24px 0 0;
+    text-align: start;
+}
+.about__tittle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: #192252;
+}
+.about__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #848FAC;
+    margin: 24px 0 32px;
+}
+.about__btn {
+    border-radius: 4px;
+    background-color: #0E1734;
+    width: 156px;
+    height: 51px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.about__img {
+    margin-top: 80px;
+}
+.about__img_middle {
+    margin: 161px 24px 0;
+}
