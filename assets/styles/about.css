@@ -1,6 +1,7 @@
 .about {
     max-width: calc(1200px + 16px*2);
     margin: 0 auto;
+    padding: 0 16px;
     height: 845px;
     display: flex;
     justify-content: space-between;

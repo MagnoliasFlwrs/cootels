@@ -2,6 +2,7 @@
     max-width: calc(1094px + 16px*2);
     margin: 0 auto;
     height: 800px;
+    padding: 0 16px;
 }
 .activity {
     margin-top: 80px;
@@ -30,7 +31,7 @@
     color: #848FAC;
 }
 .food {
-    margin-top: 32px;
+    margin: 32px 0 80px;
     display: flex;
     justify-content: space-between;
 }

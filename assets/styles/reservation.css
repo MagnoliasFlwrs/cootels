@@ -1,0 +1,122 @@
+.reservation {
+    margin: 0 auto;
+    max-width: calc(1200px + 16px*2);
+    padding: 0 16px;
+    height: 596px;
+    display: flex;
+    justify-content: space-between;
+}
+.reserve {
+    margin: 0 auto;
+    max-width: 407px;
+    margin: 162px 207px 0 0;
+    text-align: start;
+}
+.jorney {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #424F7B;
+}
+.reserve__tittle {
+    margin: 12px 0 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #192252;
+}
+.reserve__about {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #848FAC;
+    margin-bottom: 32px;
+}
+.reserve__btn {
+    border-radius: 4px;
+    width: 148px;
+    height: 51px;
+    background-color: #0E1734;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    margin-right: 56px;
+}
+.more__rooms {
+    color: #0E1734;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.how__reserve {
+    margin-top: 80px;
+    list-style: none;
+    vertical-align: middle;
+}
+.reserve__item {
+    width: 588px;
+    height: 100px;
+    border-radius: 4px;
+    background-color: #fff;
+    margin-bottom: 24px;
+    padding: 0 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px #808080 ;
+    
+}
+.reserve__item__tittle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #424F7B;
+    vertical-align: middle;
+}
+.reserve__item__btn {
+    background-color: transparent;
+    background-image: url(../images/Ellipse\ 6.png);
+    border: none;
+    float: right;
+    width: 40px;
+    height: 40px;
+}
+.reserve__item__active {
+    width: 588px;
+    height: 188px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 0 10px;
+    margin-bottom: 24px;
+    padding: 38px 36px 0;
+}
+
+.item__description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #848FAC;
+}
+.reserve__item__btn__active {
+    background-color: transparent;
+    background-image: url(../images/Ellipse\ 7\ active.png);
+    border: none;
+    float: right;
+    width: 40px;
+    height: 40px;
+}

@@ -1,6 +1,8 @@
 @import url(./about.css);
 @import url(./cootage.css);
 @import url(./act_food.css);
+@import url(./rooms.css);
+@import url(./reservation.css);
 
 
 * {
@@ -10,6 +12,7 @@
 }
 .header {
     max-width: calc(1200px + 16px*2);
+    padding: 0 16px;
     margin: 0 auto;
     height: 120px;
     display: flex;
