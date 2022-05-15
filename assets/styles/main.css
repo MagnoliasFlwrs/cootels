@@ -3,6 +3,7 @@
 @import url(./act_food.css);
 @import url(./rooms.css);
 @import url(./reservation.css);
+@import url(./reviews.css);
 
 
 * {
@@ -35,6 +36,7 @@
     font-size: 16px;
     line-height: 19px;
     color: #192252;
+    text-decoration: none;
 }
 .header__btn {
     margin: 37px 0 37px 288px;
@@ -49,4 +51,92 @@
     line-height: 19px;
     color: #FFFFFF;
 
+}
+footer {
+    width: 100%;
+    padding: 0 120px;
+    margin: 0 auto;
+    height: 444px;
+    background-color: #0B265A;
+}
+.footer__logo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+.footer__logo__descr{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin: 13px 0 36px;
+}
+.social__links {
+    text-align: start;
+    max-width: 186px;
+    margin-right: 399px;
+    
+}
+nav {
+    max-width: 1136px;
+    height: 204px;
+    padding: 120px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.social__icon {
+    margin-right: 25px;
+}
+.navigation__rooms {
+    width: 107px;
+    list-style: none;
+    margin-right: 100px;
+}
+.navigation__rooms > li {
+    margin-bottom: 24px;
+}
+.navigation__reserve{
+    width: 106px;
+    list-style: none;
+    margin-right: 141px;
+}
+.navigation__reserve > li {
+    margin-bottom: 24px;
+}
+.navigation__contacts {
+    width: 97px;
+    list-style: none;
+}
+.navigation__contacts > li {
+    margin-bottom: 24px;
+}
+.navigation__tittle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    
+}
+.navigation__link {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    
+    
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
 }
